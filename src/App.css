@@ -1,0 +1,291 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.nav-padding {
+  padding: 15px 115px 15px 115px !important;
+}
+
+.main-text {
+  font-size: 3rem;
+  line-height: 3.125rem;
+  font-weight: 700;
+}
+
+.new-styling {
+  font-weight: 600;
+  color: #999;
+  font-size: 1.25rem;
+}
+
+.form-check {
+  padding-left: 2.5em !important;
+}
+
+h1 {
+  font-size: 2rem !important;
+  line-height: 2.25rem !important;
+  font-weight: 700 !important;
+  text-align: center;
+}
+
+.margin-auto {
+  margin: 0 auto;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.p-115 {
+  padding: 115px;
+}
+
+.m-20 {
+  margin-top: 20px;
+}
+
+button {
+  font-size: 1.25rem !important;
+  font-weight: 500 !important;
+}
+
+.card-border {
+  border: none !important;
+}
+
+a {
+  color: #1C5599 !important;
+  text-decoration: none !important;
+}
+
+.btn-gradient {
+  background: #1C5599 linear-gradient(to right, rgba(255, 255, 255, 0), #6015C0) !important;
+  box-shadow: 0 12px 14px rgba(42, 113, 117, 0.25) !important;
+  transition: background-color 0.2sease-in, box-shadow 0.2sease-in !important;
+  color: #fff !important;
+}
+
+.or-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.or-container .line {
+  flex: 1;
+  height: 1px;
+  background-color: #dee0e2;
+}
+
+.or-container .text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #dee0e2;
+}
+
+.new-style-icons {
+  border: 1px solid grey;
+  border-radius: 35px;
+  margin-right: 4px;
+}
+
+.checkbox-border {
+  border: 1px solid;
+  padding: 15px 6px 15px 35px;
+  border-radius: 10px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1c5599 !important;
+  border-color: #1c5599 !important;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 100%;
+
+}
+
+.btn-light {
+  color: #1c5599 !important;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+.btn-secondary {
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+.nav-padding {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.color-white {
+  color: #fff !important;
+}
+
+.header-title {
+  font-size: 48px !important;
+  line-height: 50px !important;
+  font-weight: 700 !important;
+}
+
+.radio-label {
+  font-size: 1rem;
+}
+
+.radio-button {
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background-color: #fff;
+  border-radius: 100%;
+  border: 2px solid #ccc;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 3px;
+  margin: auto 0.5em auto 0;
+  vertical-align: text-bottom;
+  border-color: #1C5599 !important;
+}
+
+.btn-gradient {
+  background: #1C5599 linear-gradient(to right, rgba(255, 255, 255, 0), #6015C0) !important;
+  box-shadow: 0 12px 14px rgba(42, 113, 117, 0.25) !important;
+  color: #fff !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.input-group-text {
+  background-color: #ffffff !important;
+}
+
+.border-left {
+  border-left: none !important;
+
+}
+
+.image-blur {
+  -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 10%);
+  mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 10%);
+}
+
+.height-auto {
+  height: 60vh;
+}
+
+.text-start {
+  text-align: start !important;
+}
+
+.span {
+  font-size: 1.125rem;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* New Style Sheet */
+
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+
+.bg-navbar-dashboard {
+  background: #f3f4f6;
+}
+
+.nav-buttons {
+  color: #000 !important;
+  border-bottom: 3px solid;
+  border-radius: 0 !important;
+  border-color: #1e60ab;
+  font-size: 1rem !important;
+}
+
+
+.border-dark{
+  border-bottom: 2px solid #1e60ab !important;
+  border-color: rgba(var(--bs-dark-rgb), var(--bs-border-opacity)) !important;
+}
+
+
+.availability-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
+  align-items: center;
+}
+
+.day-header,
+.time-label {
+  text-align: center;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.checkbox-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-checkbox {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  appearance: none;
+  cursor: pointer;
+  transition: 0.2s;
+  background-color: white;
+}
+
+.circle-checkbox:checked {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
